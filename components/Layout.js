@@ -18,8 +18,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://github.com/Mitchell8210"
                 target="_blank"
-                rel="noreferrer"
-                rel="noopener"
+                rel="noreferrer noopeener"
               >
                 Mitchell R.
               </a>
