@@ -15,7 +15,12 @@ const Layout = ({ children }) => {
           <div>
             by{" "}
             <span className={styles.creator}>
-              <a href="https://github.com/Mitchell8210" target="_blank">
+              <a
+                href="https://github.com/Mitchell8210"
+                target="_blank"
+                rel="noreferrer"
+                rel="noopener"
+              >
                 Mitchell R.
               </a>
             </span>
