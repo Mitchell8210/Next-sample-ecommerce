@@ -6,7 +6,7 @@ const ItemDetails = ({ item }) => {
   return (
     <div className={ItemStyles.item}>
       <div className={ItemStyles.image}>
-        <Image src={item.image} width={500} height={500} />
+        <Image src={item.image} width={500} height={500} alt="product" />
       </div>
       <div className={ItemStyles.content}>
         <div className={ItemStyles.title}>{item.title}</div>
